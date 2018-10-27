@@ -1,0 +1,224 @@
+.mario {
+  position:fixed;
+  width: 256px;
+  height: 224px;
+  display: grid;
+  grid-template-columns: repeat(16,16px);
+  grid-template-rows: repeat(14,16px);
+}
+.r1-red{
+  background: red;
+  grid-area: 1/6 / span 1 /span 5;
+}
+.r1-skin {
+  background: #f9c457;
+  grid-area: 1/13 / span 1 / span 3;
+}
+.r2-red{
+  background: red;
+  grid-area: 2/5 / span 1 /span 9;
+}
+.r2-skin {
+  background: #f9c457;
+  grid-area: 2/14 / span 1 / span 2;
+}
+.r3-dred{
+  background: #941525;
+  grid-area: 3/5 / span 1 /span 3;
+}
+.r3-skin1 {
+  background: #f9c457;
+  grid-area: 3/8 / span 1 / span 2;
+}
+.r3-blk{
+  background: black;
+  grid-area: 3/10 / span 2 /span 1;
+}
+.r3-skin2 {
+  background: #f9c457;
+  grid-area: 3/11 / span 2 / span 1;
+}
+.r3-red {
+  background: red;
+  grid-area: 3/13 / span 1 / span 3;
+}
+.r4-dred{
+  background: #941525;
+  grid-area: 4/4 / span 3 /span 1;
+}
+.r4-skin1 {
+  background: #f9c457;
+  grid-area: 4/5 / span 2 / span 1;
+}
+.r4-dred2{
+  background: #941525;
+  grid-area: 4/6 / span 2 /span 1;
+}
+.r4-skin2 {
+  background: #f9c457;
+  grid-area: 4/7 / span 1 / span 3;
+}
+.r4-skin3 {
+  background: #f9c457;
+  grid-area: 4/11 / span 1 / span 3;
+}
+.r4-red {
+  background: red;
+  grid-area: 4/14 / span 1 / span 2;
+}
+.r5-c7 {
+  background: #941525;
+  grid-area: 5/7 / span 1 / span 1;
+}
+.r5-c8toc10 {
+  background: #f9c457;
+  grid-area: 5/8 / span 1 / span 3;
+}
+.r5-c11 {
+  background: black;
+  grid-area: 5/11 / span 1 / span 1;
+}
+.r5-c12toc14 {
+  background: #f9c457;
+  grid-area: 5/12 / span 1 / span 3;
+}
+.r5tor6-c15 {
+  background: red;
+  grid-area: 5/15 / span 2 / span 1;
+}
+.r6-c5{
+  background: #941525;
+  grid-area: 6/5 / span 1 / span 1;
+}
+.r6-c6toc9{
+  background: #f9c457;
+  grid-area: 6/6 / span 1 / span 4;
+}
+.r6-c10toc13 {
+  background: black;
+  grid-area: 6/10 / span 1 / span 4;
+}
+.r6tor7-c14{
+  background: red;
+  grid-area: 6/14 / span 2 / span 1;
+}
+.r7-c6toc12{
+  background: #f9c457;
+  grid-area: 7/6 / span 1 / span 7;
+}
+.r7tor8-c13 {
+  background: red;
+  grid-area: 7/13 / span 2 / span 1;
+}
+.r8-c3toc6 {
+  background: red;
+  grid-area: 8/3 / span 1 / span 4;
+}
+.r8-c7 {
+  background: blue;
+  grid-area: 8/7 / span 1 / span 1;
+}
+.r8-c8toc10 {
+  background: red;
+  grid-area: 8/8 / span 1 / span 3;
+}
+.r8-c11 {
+  background: blue;
+  grid-area: 8/11 / span 1 / span 1;
+}
+.r8-c12 {
+  background: red;
+  grid-area: 8/12 / span 1 / span 1;
+}
+.r9tor10-c1{
+  background: #f9c457;
+  grid-area: 9/1 / span 2 / span 1;
+}
+.r9tor11-c2{
+  background: #f9c457;
+  grid-area: 9/2 / span 3 / span 1;
+}
+.r9-c3toc7{
+  background: red;
+  grid-area: 9/3 / span 1 / span 5;
+}
+.r9-c8{
+  background: blue;
+  grid-area: 9/8 / span 1 / span 1;
+}
+.r9-c9toc11{
+  background: red;
+  grid-area: 9/9 / span 1 / span 3;
+}
+.r9-c12{
+  background: blue;
+  grid-area: 9/12 / span 1 / span 1;
+}
+.r9tor12-c15{
+  background: #941525;
+  grid-area: 9/15 / span 4 / span 1;
+}
+.r8tor12-c16{
+  background: #941525;
+  grid-area: 8/16 / span 5 / span 1;
+}
+.r10-c3{
+  background: #f9c457;
+  grid-area: 10/3 / span 1 / span 1;
+}
+.r10-c4toc7{
+  background: red;
+  grid-area: 10/4 / span 1 / span 4;
+}
+.r10-c8toc11{
+  background: blue;
+  grid-area: 10/8 / span 1 / span 4;
+}
+.r10-c12{
+  background: yellow;
+  grid-area: 10/12 / span 1 / span 1;
+}
+.r10-c13toc14{
+  background: blue;
+  grid-area: 10/13 / span 1 / span 2;
+}
+.r11-c5{
+  background: blue;
+  grid-area: 11/5 / span 1 / span 1;
+}
+.r11-c6{
+  background: red;
+  grid-area: 11/6 / span 1 / span 1;
+}
+.r11-c7toc8{
+  background: blue;
+  grid-area: 11/7 / span 1 / span 2;
+}
+.r11-c9{
+  background: yellow;
+  grid-area: 11/9 / span 1 / span 1;
+}
+.r11-c10toc14{
+  background: blue;
+  grid-area: 11/10 / span 1 / span 5;
+}
+.r12-c3toc5{
+  background: #941525;
+  grid-area: 12/3 / span 1 / span 3;
+}
+.r12-c6toc14{
+  background: blue;
+  grid-area: 12/6 / span 1 / span 9;
+}
+.r13-c2toc4{
+  background: #941525;
+  grid-area: 13/2 / span 1 / span 3;
+}
+.r13-c5toc10{
+  background: blue;
+  grid-area: 13/5 / span 1 / span 6;
+}
+.r14{
+  background: #941525;
+  grid-area: 14/2 / span 1 / span 2;
+}
